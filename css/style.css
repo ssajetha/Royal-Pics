@@ -1,0 +1,75 @@
+
+	/* Importing logo fontawesome */
+	@import url("https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous")
+
+	/* Importing Google fonts */
+	@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans|KoHo")
+
+	/* Importing component files */
+	@import url("components/logo.css");
+	@import url("components/banner.css");
+	@import url("components/button.css");
+	@import url("components/container.css");
+	@import url("components/card.css");
+	@import url("components/navbar.css");
+	@import url("components/list.css");
+	@import url("components/black-box.css");
+	@import url("components/footer.css");
+	@import url("components/galerie.css");
+	@import url("components/cardgallery.css");
+	@import url("components/list-social-network.css");
+	@import url("components/banner-title.css");
+	@import url("components/row.css");
+	@import url("components/col-xs-12 col-sm-6 col-md-3.css");
+
+	body {
+		font-family:'Alegreya', sans-serif; 
+		font-size: 18px; 
+		margin: 0px;
+		background-color:rgb(249, 245, 232);
+		color:black;
+		text-align:justify;
+	}
+
+	h1,h2,h3{
+		font-family:'KoHo', sans-serif;
+		font-weight:bold;
+	}
+
+	h2{
+		text-align:center;
+	}
+
+	h2,h3 {
+		color:rgb(86, 4, 4);
+	}
+
+	a {
+		text-decoration: none 
+	}
+
+	p {
+		text-align: justify;
+		line-height: 25px;
+	}
+
+	 #footer{
+	 display: flex;
+	 background-color:black;
+	 width: 100%;
+	 justify-content: space-around;
+	 align-items: center;
+	 color:white;
+	 font-size: 16px;
+	 margin: 0px;
+	}
+	#contact-style {
+		text-decoration: none;
+	 }
+	 #contact-style a {
+		color: white;
+	 }
+	#contact-style a:hover {
+	   color:black ; 
+	   background-color:white; 
+	}

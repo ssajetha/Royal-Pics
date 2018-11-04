@@ -1,0 +1,19 @@
+		.galerie {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: space-between;
+		}
+
+		.photo {
+		display: flex;
+		align-items: center;
+		justify-content: start;
+		padding: 12px;
+		flex-direction: column;
+		flex-grow: 1;
+		flex-basis: 30px;
+		padding-top: 20px;
+		}
+
+

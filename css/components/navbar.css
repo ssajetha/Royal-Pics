@@ -1,0 +1,20 @@
+  .navbar {
+     display:flex;
+     justify-content: space-between;
+     color: white;
+     background-color:black; 
+     align-items: center;
+     font-size: 16px;
+     text-align:center;      
+     border-top: none;
+     text-decoration: none;	
+  }
+
+  .logo {
+
+  	width:92px;
+      height: 74px;
+      padding: 35px;
+      margin-top: -23px;
+      margin-bottom:-52px;
+     }
